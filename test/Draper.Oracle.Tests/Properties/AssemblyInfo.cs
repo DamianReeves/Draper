@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Fresher")]
+[assembly: AssemblyTitle("Fresher.Oracle.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Fresher")]
+[assembly: AssemblyProduct("Fresher.Oracle.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("126e69b2-e2c4-4a40-9b1e-b065b77496da")]
+[assembly: Guid("ffc0b649-30e7-4824-b7d0-76f483729b4f")]
 
 // Version information for an assembly consists of the following four values:
 //

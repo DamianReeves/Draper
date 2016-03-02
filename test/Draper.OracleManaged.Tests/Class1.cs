@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fresher
+namespace Fresher.OracleManaged.Tests
 {
     public class Class1
     {
+        public Class1()
+        {
+            
+        }
     }
 }
