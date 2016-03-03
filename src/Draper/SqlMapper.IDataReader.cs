@@ -6,8 +6,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 #if COREFX
+using IDbDataParameter = System.Data.Common.DbParameter;
+using IDataParameter = System.Data.Common.DbParameter;
+using IDbTransaction = System.Data.Common.DbTransaction;
+using IDbConnection = System.Data.Common.DbConnection;
+using IDbCommand = System.Data.Common.DbCommand;
 using IDataReader = System.Data.Common.DbDataReader;
+using IDataRecord = System.Data.Common.DbDataReader;
+using IDataParameterCollection = System.Data.Common.DbParameterCollection;
+using DataException = System.InvalidOperationException;
 #endif
+
 
 namespace Draper
 {

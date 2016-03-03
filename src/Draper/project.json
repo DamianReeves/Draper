@@ -1,0 +1,27 @@
+{
+    "version": "0.1.0-*",
+    "description": "Draper, data access for mad men (and women, children, aliens... for all)",
+    "authors": [ "DamReev" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "frameworks": {
+        "net451": { },
+        "dotnet5.4": {
+            "compilationOptions": {
+                "define": [ "ASYNC", "COREFX" ]
+            },
+            "dependencies": {
+                "Microsoft.CSharp": "4.0.1-beta-23516",
+                "System.Collections": "4.0.11-beta-23516",
+                "System.Linq": "4.0.1-beta-23516",
+                "System.Threading": "4.0.11-beta-23516"
+            }
+        }
+    },
+    "dependencies": {
+        "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-*",
+        "Dapper": "1.50.0-beta8"
+    }
+}

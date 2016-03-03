@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="DataAccessKernel.cs" />
     <Compile Include="DataAccessModule.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="DatabaseFactory.cs" />
     <Compile Include="DbParameters.cs" />
     <Compile Include="DbTypes\RefCursor.cs" />
     <Compile Include="Internals\ActionDisposable.cs" />
